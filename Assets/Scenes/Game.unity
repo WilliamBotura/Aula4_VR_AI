@@ -140,6 +140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b3b485a87d907a4c9a5a400213aa512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 1.5
+  zumbiPrefab: {fileID: 1311583890142986, guid: 0d0e9e4fa5e2db44c997718342e74a4c,
+    type: 2}
 --- !u!4 &40498714
 Transform:
   m_ObjectHideFlags: 0
@@ -306,22 +309,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &817838549 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1311583890142986, guid: 0d0e9e4fa5e2db44c997718342e74a4c,
-    type: 2}
-  m_PrefabInternal: {fileID: 1811925272}
---- !u!114 &817838554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 817838549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b9278f2a8fadc146ba604965480f93a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1036935883
 Prefab:
   m_ObjectHideFlags: 0
@@ -487,11 +474,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 137499020415570804, guid: 0d0e9e4fa5e2db44c997718342e74a4c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 4d379e1770b889f448012ce150e1516d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d0e9e4fa5e2db44c997718342e74a4c, type: 2}
   m_IsPrefabAsset: 0
